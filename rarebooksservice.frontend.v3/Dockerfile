@@ -20,7 +20,7 @@ COPY --from=build /app/dist /usr/share/nginx/html
 COPY ./nginx.conf /etc/nginx/conf.d/default.conf
 
 # Открываем порт 80 для доступа к приложению
-EXPOSE 80
+EXPOSE 3000
 
 # Запускаем Nginx
 CMD ["nginx", "-g", "daemon off;"]

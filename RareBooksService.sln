@@ -18,6 +18,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{B04A8C08-3F7F-42BD-AB53-C8BB991CCAFD}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		nginx.conf = nginx.conf
 	EndProjectSection
 EndProject
 Global
