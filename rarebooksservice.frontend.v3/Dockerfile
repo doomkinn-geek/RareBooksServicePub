@@ -13,7 +13,7 @@ COPY . .
 RUN npm run build
 
 # Этап 2: Настройка Nginx для обслуживания статических файлов
-FROM nginx:alpine
+FROM nginx:stable-alpine
 
 # Копируем собранные файлы React-приложения из этапа сборки в Nginx
 COPY --from=build /app/dist /usr/share/nginx/html

@@ -2,8 +2,8 @@
 import axios from 'axios';
 import Cookies from 'js-cookie';
 
-//export const API_URL = 'https://localhost:7042/api';
-export const API_URL = 'http://localhost/api';
+export const API_URL = 'https://localhost:7042/api';
+//export const API_URL = '/api';
 
 const getAuthHeaders = () => {
     const token = Cookies.get('token') || localStorage.getItem('token');

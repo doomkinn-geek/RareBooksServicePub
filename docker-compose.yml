@@ -1,6 +1,3 @@
-networks:
-  app-network:
-
 services:
   postgres:
     image: postgres:13
@@ -46,3 +43,6 @@ services:
       dockerfile: Dockerfile
     networks:
       - app-network 
+networks:
+  app-network:
+
